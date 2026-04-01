@@ -176,7 +176,7 @@ total_sales = 0
 for i in sales:
   sales_float = float(i.strip('$'))
   total_sales += sales_float
-print(round(total_sales, 2))
+print("Total sales today: " + round(total_sales, 2))
 print("\n")
 
 #-------------------------------------------------------------
